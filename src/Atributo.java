@@ -12,8 +12,8 @@ import javax.swing.ImageIcon;
 public class Atributo {
     
     /** Versao atual */
-    public final String CFVERSAO = "Versao 1.01";
-    public final String REVISAO = "Fevereiro de 2022";
+    public final String CFVERSAO = "Versao 1.02";
+    public final String REVISAO = "Junho de 2022";
     
     /** Devolve um objeto ImageIcon com determinada imagem
      * @param s String contendo o nome da imagem

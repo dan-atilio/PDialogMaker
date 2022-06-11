@@ -202,7 +202,7 @@ public class MstGerar extends JDialog {
             		variavelTexto += "        //" + variavelObjeto + ":bValid     := {|| fFuncaoVld()}           //Funcao para validar o que foi digitado\n";
     				variavelTexto += "        //" + variavelObjeto + ":lReadOnly  := .T.                         //Para permitir o usuario clicar mas nao editar o campo\n";
 					variavelTexto += "        //" + variavelObjeto + ":lActive    := .F.                         //Para deixar o campo inativo e o usuario nao conseguir nem clicar\n";
-					variavelTexto += "        //" + variavelObjeto + ":cPict      := '@!'                        //Mascara / Picture do campo\n";
+					variavelTexto += "        //" + variavelObjeto + ":Picture    := '@!'                        //Mascara / Picture do campo\n";
             		variavelTexto += "\n";
             		
             		variavelConteud += "    := Space(10) //Se o get for data para inicilizar use dToS(''), se for numerico inicie com 0 ";
